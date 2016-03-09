@@ -1,0 +1,83 @@
+#photo-content{
+    margin-bottom: 30px;
+}
+#list-photo{
+    padding-top: 40px;
+    margin-bottom: 0;
+    font-size: 0;
+    line-height: 0;
+}
+#list-photo li{
+    width: 20%;
+    display: inline-block;
+    margin: 0 0 6px;
+    padding: 0 2px;
+}
+#inifiniteLoader{
+    display: none;
+}
+.img-loading{
+    margin: 0 auto; 
+    width: 30px;
+}
+.upload_photo_form{
+    padding-bottom: 90px;
+}
+.upload_photo_form .input-wraper{
+    margin-bottom: 20px
+}
+.upload_photo_form .input-wraper .filename{
+    display: inline-block;
+    text-align: center;
+}
+.upload_photo_form .btn-file {
+    cursor: pointer;
+    text-align: center;
+    height: 48px;
+    width: 268px;
+    position: relative;
+    overflow: hidden;
+}
+.upload_photo_form .btn-file .button-name{
+    text-transform: none;
+}
+.upload_photo_form .btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.upload_photo_form .button-wraper {
+    float: right
+} 
+.upload_photo_form .button-wraper  input[type='submit']{
+    margin-top: 20px;
+    height: 48px;
+}
+.upload_photo_form .input-wrap-textarea textarea{
+    padding: 3px 10px;
+    border: 1px solid #b0d16b;
+    width: 100%;
+    max-width: 100%;
+    min-width: 268px;
+    resize: none;
+    overflow-y: auto;
+    border-radius: 6px;
+    background: #f5f7f9;
+}
+
+@media screen and (max-width: 767px) {
+
+#list-photo li {
+    width: 100%;
+}
+}
